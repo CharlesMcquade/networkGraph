@@ -58,8 +58,7 @@
                         <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
                     </div>
                 </div>
-                <div class="row">
-                    <canvas id="chart" width="100%" height = "100%"></canvas>
+                <div id="chart" class="row">
                 </div>
             </div>
         </div>
