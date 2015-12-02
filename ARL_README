@@ -1,0 +1,4 @@
+Takes in firewall denies and makes a cool looking graph out of them. Current working model is ctest1.php,
+includes/nodeadder.php
+    This handles parsing the data files placed in "/var/www/html/d3test/dat/" into variable 
+    declarations which are then put into the node/edge array in the javascript in ctest1.php
