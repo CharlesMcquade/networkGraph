@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <canvas class="chart"></canvas>
+                    <canvas id="chart"></canvas>
                 </div>
             </div>
         </div>
