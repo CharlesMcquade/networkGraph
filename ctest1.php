@@ -101,7 +101,7 @@ var force = d3.layout.force()
     .size([width, height])
     .on("tick", tick);
 
-var svg = d3.select("#chart").append("svg:svg")
+var svg = d3.select("#chart").append("svg")
     .attr("width", width)
     .attr("height", height);
 
