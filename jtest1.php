@@ -13,7 +13,7 @@
 }
 
 </style>
-<body bgcolor=bcbcff>
+<body>
 <script src="js/d3.min.js"></script>
 <script>
 
@@ -23,7 +23,7 @@ var width = 1860,
 var color = d3.scale.category20();
 
 var force = d3.layout.force()
-    .charge(-600)
+    .charge(-60)
     .linkDistance(60)
     .size([width, height]);
 
